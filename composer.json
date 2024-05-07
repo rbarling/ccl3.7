@@ -5,7 +5,8 @@
     "require": {
         "cwp/cwp-recipe-basic": "~1.9.4@stable",
         "cwp/cwp-recipe-blog": "~1.9.4@stable",
-        "cwp/starter-theme": "~1.1.1@stable"
+        "cwp/starter-theme": "~1.1.1@stable",
+        "rbarling/moduletest": "*"
     },
     "require-dev": {
         "cwp/cwp-recipe-basic-dev": "1.x-dev"
@@ -19,6 +20,12 @@
             "composer/installers": true
         }
     },
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "git@github.com:rbarling/moduletest.git"
+        }
+    ],
     "extra": [],
     "prefer-stable": true,
     "minimum-stability": "dev"

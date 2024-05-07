@@ -72,3 +72,4 @@ _ss_environment.php
 /silverstripe-composer-security-checker
 /silverstripe-composer-update-checker
 /silverstripe-maintenance
+/moduletest
