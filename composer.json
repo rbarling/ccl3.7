@@ -6,7 +6,8 @@
         "cwp/cwp-recipe-basic": "~1.9.4@stable",
         "cwp/cwp-recipe-blog": "~1.9.4@stable",
         "cwp/starter-theme": "~1.1.1@stable",
-        "rbarling/moduletest": "*"
+        "rbarling/moduletest": "*",
+        "silverstripe/vendor-plugin": "1.7.0"
     },
     "require-dev": {
         "cwp/cwp-recipe-basic-dev": "1.x-dev"
@@ -17,7 +18,8 @@
     "config": {
         "process-timeout": 900,
         "allow-plugins": {
-            "composer/installers": true
+            "composer/installers": true,
+            "silverstripe/vendor-plugin": true
         }
     },
     "repositories": [
